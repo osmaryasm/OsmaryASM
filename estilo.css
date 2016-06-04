@@ -1,0 +1,34 @@
+body{
+	background: #333;
+	color: white;
+}
+
+aside,header,nav,section#contenedor,section#contenido,footer{
+	border-radius: .5em;
+	background-color: #666;
+	margin: .3em auto;
+	padding: .3em;
+	text-align: center; 
+	width: 95%;
+}
+
+aside,section#contenido{
+	background-color: #999;
+	width: 65%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+aside{
+	width: 30%;
+}
+
+footer{
+	font-size: .7em;
+}
+
+header{
+	font-size: 2em;
+}
